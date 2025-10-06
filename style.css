@@ -112,7 +112,9 @@ button:hover {
         width: 200px;
     }
     #display{height: 40px; font-size: 1.2rem;}
-    button{padding: 10px;font-size: 1rem;}
+    button{padding: 10px; width: 30px;height: 30px; font-size: 1rem;}
+    .zero{padding: 10px; width: 30px;height: 30px; font-size: 1rem;}
+    .equals{padding: 10px; width: 30px;height: 30px; font-size: 1rem;}
     
 }
 
