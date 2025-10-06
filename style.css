@@ -107,19 +107,12 @@ button:hover {
     transition: background-color 0.2s;
   
 }
-@media (max-width : 280px) {
+@media (max-width : 480px) {
     .calculator{
-        width: 100px;
+        width: 200px;
     }
-    #display{height: 20px; font-size: 1.2rem;}
-    button{padding: 5px; font-size: 1rem;}
+    #display{height: 40px; font-size: 1.2rem;}
+    button{padding: 10px;font-size: 1rem;}
     
 }
-@media (max-width : 768px) {
-    .calculator{
-        width: 250px;
-    }
-    #display{height: 50px; font-size: 1.2rem;}
-    button{padding: 12px; font-size: 1rem;}
-    
-}
+
