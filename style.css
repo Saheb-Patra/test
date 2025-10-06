@@ -1,0 +1,125 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#display {
+    width: calc(100% - 20px);
+    height: 60px;
+    background-color: #444;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.buttons {
+   
+ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+  
+
+    
+   
+
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    background-color: #666;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #888;
+}
+
+.clear {
+    background-color: #f44336;
+}
+
+.clear:hover {
+    background-color: #e57373;
+}
+.delete{
+  background-color:green;
+}
+
+.operator {
+    background-color: #ff9800;
+}
+
+.operator:hover {
+    background-color: #ffb74d;
+}
+
+.equals {
+     width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    background-color: #666;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.equals:hover {
+    background-color: #81c784;
+}
+
+.zero {
+  width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    background-color: #666;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  
+}
+@media (max-width : 280px) {
+    .calculator{
+        width: 100px;
+    }
+    #display{height: 20px; font-size: 1.2rem;}
+    button{padding: 5px; font-size: 1rem;}
+    
+}
+@media (max-width : 768px) {
+    .calculator{
+        width: 250px;
+    }
+    #display{height: 50px; font-size: 1.2rem;}
+    button{padding: 12px; font-size: 1rem;}
+    
+}
